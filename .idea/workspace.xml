@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bc31c328-8c3b-423d-817f-4697ad4c81b0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/services/BankService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/services/BankServiceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/services/CompteEntite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/services/ConvEuroToTnd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/services/ConvEuroToTndResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/services/ConvTndToAny.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/services/ConvTndToAnyResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/services/ConvUsdToAny.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/services/ConvUsdToAnyResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/services/GetAllCurrency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/services/GetAllCurrencyResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/services/GetCompte.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/services/GetCompteResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/services/GetComptes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/services/GetComptesResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/services/NotFoundExepetion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/services/NotFoundExepetion_Exception.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/services/ObjectFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/services/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/BankService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/BankServiceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/CompteEntite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/ConvEuroToTnd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/ConvEuroToTndResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/ConvTndToAny.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/ConvTndToAnyResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/ConvUsdToAny.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/ConvUsdToAnyResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/GetAllCurrency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/GetAllCurrencyResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/GetCompte.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/GetCompteResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/GetComptes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/GetComptesResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/NotFoundExepetion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/NotFoundExepetion_Exception.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/ObjectFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/package-info.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="rbdz9dbx" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2mvG7rNlKxVC6KVmF8Ls5cN6NX4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.Client.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Spring boot project\consomateurBank\frontendBank\src\main\java" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Client" />
+      <module name="frontendBank" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Client" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bc31c328-8c3b-423d-817f-4697ad4c81b0" name="Changes" comment="" />
+      <created>1727949473254</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1727949473254</updated>
+      <workItem from="1727949474352" duration="1118000" />
+      <workItem from="1727951111753" duration="86000" />
+      <workItem from="1729152080315" duration="2973000" />
+      <workItem from="1729155542229" duration="637000" />
+      <workItem from="1729158568197" duration="19000" />
+      <workItem from="1729273294279" duration="3793000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
