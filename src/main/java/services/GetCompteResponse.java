@@ -17,7 +17,7 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;complexContent>
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
- *         &lt;element name="return" type="{http://service/}compteEntite" minOccurs="0"/>
+ *         &lt;element name="return" type="{http://service/}compteEntity" minOccurs="0"/>
  *       &lt;/sequence>
  *     &lt;/restriction>
  *   &lt;/complexContent>
@@ -33,17 +33,17 @@ import javax.xml.bind.annotation.XmlType;
 public class GetCompteResponse {
 
     @XmlElement(name = "return")
-    protected CompteEntite _return;
+    protected CompteEntity _return;
 
     /**
      * Obtient la valeur de la propriété return.
      * 
      * @return
      *     possible object is
-     *     {@link CompteEntite }
+     *     {@link CompteEntity }
      *     
      */
-    public CompteEntite getReturn() {
+    public CompteEntity getReturn() {
         return _return;
     }
 
@@ -52,10 +52,10 @@ public class GetCompteResponse {
      * 
      * @param value
      *     allowed object is
-     *     {@link CompteEntite }
+     *     {@link CompteEntity }
      *     
      */
-    public void setReturn(CompteEntite value) {
+    public void setReturn(CompteEntity value) {
         this._return = value;
     }
 

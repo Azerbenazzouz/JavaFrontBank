@@ -7,12 +7,12 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Classe Java pour NotFoundExepetion complex type.
+ * <p>Classe Java pour NotFoundException complex type.
  * 
  * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.
  * 
  * <pre>
- * &lt;complexType name="NotFoundExepetion">
+ * &lt;complexType name="NotFoundException">
  *   &lt;complexContent>
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
@@ -26,10 +26,10 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "NotFoundExepetion", propOrder = {
+@XmlType(name = "NotFoundException", propOrder = {
     "message"
 })
-public class NotFoundExepetion {
+public class NotFoundException {
 
     protected String message;
 

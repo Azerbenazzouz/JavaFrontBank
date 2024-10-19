@@ -10,12 +10,12 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Classe Java pour getAllCurrencyResponse complex type.
+ * <p>Classe Java pour getAllCurrenciesResponse complex type.
  * 
  * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.
  * 
  * <pre>
- * &lt;complexType name="getAllCurrencyResponse">
+ * &lt;complexType name="getAllCurrenciesResponse">
  *   &lt;complexContent>
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
@@ -29,10 +29,10 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "getAllCurrencyResponse", propOrder = {
+@XmlType(name = "getAllCurrenciesResponse", propOrder = {
     "_return"
 })
-public class GetAllCurrencyResponse {
+public class GetAllCurrenciesResponse {
 
     @XmlElement(name = "return")
     protected List<String> _return;

@@ -17,20 +17,20 @@ import javax.xml.ws.WebServiceFeature;
  * Generated source version: 2.2
  * 
  */
-@WebServiceClient(name = "bankServiceService", targetNamespace = "http://service/", wsdlLocation = "http://localhost:8044/?wsdl")
+@WebServiceClient(name = "BankServiceService", targetNamespace = "http://service/", wsdlLocation = "http://localhost:8044/bankService?wsdl")
 public class BankServiceService
     extends Service
 {
 
     private final static URL BANKSERVICESERVICE_WSDL_LOCATION;
     private final static WebServiceException BANKSERVICESERVICE_EXCEPTION;
-    private final static QName BANKSERVICESERVICE_QNAME = new QName("http://service/", "bankServiceService");
+    private final static QName BANKSERVICESERVICE_QNAME = new QName("http://service/", "BankServiceService");
 
     static {
         URL url = null;
         WebServiceException e = null;
         try {
-            url = new URL("http://localhost:8044/?wsdl");
+            url = new URL("http://localhost:8044/bankService?wsdl");
         } catch (MalformedURLException ex) {
             e = new WebServiceException(ex);
         }
@@ -65,11 +65,11 @@ public class BankServiceService
     /**
      * 
      * @return
-     *     returns BankService
+     *     returns IBankService
      */
-    @WebEndpoint(name = "bank_servicePort")
-    public BankService getBankServicePort() {
-        return super.getPort(new QName("http://service/", "bank_servicePort"), BankService.class);
+    @WebEndpoint(name = "BankServicePort")
+    public IBankService getBankServicePort() {
+        return super.getPort(new QName("http://service/", "BankServicePort"), IBankService.class);
     }
 
     /**
@@ -77,11 +77,11 @@ public class BankServiceService
      * @param features
      *     A list of {@link javax.xml.ws.WebServiceFeature} to configure on the proxy.  Supported features not in the <code>features</code> parameter will have their default values.
      * @return
-     *     returns BankService
+     *     returns IBankService
      */
-    @WebEndpoint(name = "bank_servicePort")
-    public BankService getBankServicePort(WebServiceFeature... features) {
-        return super.getPort(new QName("http://service/", "bank_servicePort"), BankService.class, features);
+    @WebEndpoint(name = "BankServicePort")
+    public IBankService getBankServicePort(WebServiceFeature... features) {
+        return super.getPort(new QName("http://service/", "BankServicePort"), IBankService.class, features);
     }
 
     private static URL __getWsdlLocation() {

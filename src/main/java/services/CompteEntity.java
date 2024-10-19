@@ -9,12 +9,12 @@ import javax.xml.datatype.XMLGregorianCalendar;
 
 
 /**
- * <p>Classe Java pour compteEntite complex type.
+ * <p>Classe Java pour compteEntity complex type.
  * 
  * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.
  * 
  * <pre>
- * &lt;complexType name="compteEntite">
+ * &lt;complexType name="compteEntity">
  *   &lt;complexContent>
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
@@ -29,11 +29,11 @@ import javax.xml.datatype.XMLGregorianCalendar;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "compteEntite", propOrder = {
+@XmlType(name = "compteEntity", propOrder = {
     "dateCreation",
     "solde"
 })
-public class CompteEntite {
+public class CompteEntity {
 
     @XmlSchemaType(name = "dateTime")
     protected XMLGregorianCalendar dateCreation;

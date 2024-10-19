@@ -4,51 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc31c328-8c3b-423d-817f-4697ad4c81b0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/services/BankService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/services/BankServiceService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/services/CompteEntite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/services/ConvEuroToTnd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/services/ConvEuroToTndResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/services/ConvTndToAny.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/services/ConvTndToAnyResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/services/ConvUsdToAny.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/services/ConvUsdToAnyResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/services/GetAllCurrency.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/services/GetAllCurrencyResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/services/GetCompte.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/services/GetCompteResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/services/GetComptes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/services/GetComptesResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/services/NotFoundExepetion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/services/NotFoundExepetion_Exception.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/services/ObjectFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/services/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/BankService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/BankServiceService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/CompteEntite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/ConvEuroToTnd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/ConvEuroToTndResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/ConvTndToAny.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/ConvTndToAnyResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/ConvUsdToAny.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/ConvUsdToAnyResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/GetAllCurrency.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/GetAllCurrencyResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/GetCompte.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/GetCompteResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/GetComptes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/GetComptesResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/NotFoundExepetion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/NotFoundExepetion_Exception.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/ObjectFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/package-info.java" afterDir="false" />
+    <list default="true" id="bc31c328-8c3b-423d-817f-4697ad4c81b0" name="Changes" comment="gg">
+      <change afterPath="$PROJECT_DIR$/src/main/java/services/IBankService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/services/BankService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/services/BankServiceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/BankServiceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/services/CompteEntite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/CompteEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/services/ConvEuroToTnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/ConvertEuroToTnd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/services/ConvEuroToTndResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/ConvertEuroToTndResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/services/ConvTndToAny.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/ConvertTndToAny.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/services/ConvTndToAnyResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/ConvertUsdToAnyResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/services/ConvUsdToAny.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/ConvertUsdToAny.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/services/ConvUsdToAnyResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/ConvertTndToAnyResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/services/GetAllCurrency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/GetAllCurrencies.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/services/GetAllCurrencyResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/GetAllCurrenciesResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/services/GetCompteResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/GetCompteResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/services/GetComptesResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/GetComptesResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/services/NotFoundExepetion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/NotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/services/NotFoundExepetion_Exception.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/NotFoundException_Exception.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/services/ObjectFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/ObjectFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,8 +114,26 @@
       <workItem from="1729152080315" duration="2973000" />
       <workItem from="1729155542229" duration="637000" />
       <workItem from="1729158568197" duration="19000" />
-      <workItem from="1729273294279" duration="3793000" />
+      <workItem from="1729273294279" duration="4145000" />
+      <workItem from="1729322222086" duration="1424000" />
     </task>
+    <task id="LOCAL-00001" summary="gg">
+      <option name="closed" value="true" />
+      <created>1729285920926</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1729285920926</updated>
+    </task>
+    <task id="LOCAL-00002" summary="gg">
+      <option name="closed" value="true" />
+      <created>1729285999652</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1729285999652</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,5 +141,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="gg" />
+    <option name="LAST_COMMIT_MESSAGE" value="gg" />
   </component>
 </project>

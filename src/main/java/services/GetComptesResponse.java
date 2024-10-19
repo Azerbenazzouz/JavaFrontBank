@@ -19,7 +19,7 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;complexContent>
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
- *         &lt;element name="return" type="{http://service/}compteEntite" maxOccurs="unbounded" minOccurs="0"/>
+ *         &lt;element name="return" type="{http://service/}compteEntity" maxOccurs="unbounded" minOccurs="0"/>
  *       &lt;/sequence>
  *     &lt;/restriction>
  *   &lt;/complexContent>
@@ -35,7 +35,7 @@ import javax.xml.bind.annotation.XmlType;
 public class GetComptesResponse {
 
     @XmlElement(name = "return")
-    protected List<CompteEntite> _return;
+    protected List<CompteEntity> _return;
 
     /**
      * Gets the value of the return property.
@@ -55,13 +55,13 @@ public class GetComptesResponse {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link CompteEntite }
+     * {@link CompteEntity }
      * 
      * 
      */
-    public List<CompteEntite> getReturn() {
+    public List<CompteEntity> getReturn() {
         if (_return == null) {
-            _return = new ArrayList<CompteEntite>();
+            _return = new ArrayList<CompteEntity>();
         }
         return this._return;
     }

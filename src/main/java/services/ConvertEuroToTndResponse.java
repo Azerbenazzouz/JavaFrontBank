@@ -8,12 +8,12 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Classe Java pour convTndToAnyResponse complex type.
+ * <p>Classe Java pour convertEuroToTndResponse complex type.
  * 
  * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.
  * 
  * <pre>
- * &lt;complexType name="convTndToAnyResponse">
+ * &lt;complexType name="convertEuroToTndResponse">
  *   &lt;complexContent>
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
@@ -27,10 +27,10 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "convTndToAnyResponse", propOrder = {
+@XmlType(name = "convertEuroToTndResponse", propOrder = {
     "_return"
 })
-public class ConvTndToAnyResponse {
+public class ConvertEuroToTndResponse {
 
     @XmlElement(name = "return")
     protected double _return;

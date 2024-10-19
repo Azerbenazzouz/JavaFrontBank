@@ -10,8 +10,8 @@ import javax.xml.ws.WebFault;
  * Generated source version: 2.2
  * 
  */
-@WebFault(name = "NotFoundExepetion", targetNamespace = "http://service/")
-public class NotFoundExepetion_Exception
+@WebFault(name = "NotFoundException", targetNamespace = "http://service/")
+public class NotFoundException_Exception
     extends Exception
 {
 
@@ -19,14 +19,14 @@ public class NotFoundExepetion_Exception
      * Java type that goes as soapenv:Fault detail element.
      * 
      */
-    private NotFoundExepetion faultInfo;
+    private NotFoundException faultInfo;
 
     /**
      * 
      * @param faultInfo
      * @param message
      */
-    public NotFoundExepetion_Exception(String message, NotFoundExepetion faultInfo) {
+    public NotFoundException_Exception(String message, NotFoundException faultInfo) {
         super(message);
         this.faultInfo = faultInfo;
     }
@@ -37,7 +37,7 @@ public class NotFoundExepetion_Exception
      * @param cause
      * @param message
      */
-    public NotFoundExepetion_Exception(String message, NotFoundExepetion faultInfo, Throwable cause) {
+    public NotFoundException_Exception(String message, NotFoundException faultInfo, Throwable cause) {
         super(message, cause);
         this.faultInfo = faultInfo;
     }
@@ -45,9 +45,9 @@ public class NotFoundExepetion_Exception
     /**
      * 
      * @return
-     *     returns fault bean: services.NotFoundExepetion
+     *     returns fault bean: services.NotFoundException
      */
-    public NotFoundExepetion getFaultInfo() {
+    public NotFoundException getFaultInfo() {
         return faultInfo;
     }
 

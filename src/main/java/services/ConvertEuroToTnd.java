@@ -7,16 +7,16 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Classe Java pour convEuroToTnd complex type.
+ * <p>Classe Java pour convertEuroToTnd complex type.
  * 
  * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.
  * 
  * <pre>
- * &lt;complexType name="convEuroToTnd">
+ * &lt;complexType name="convertEuroToTnd">
  *   &lt;complexContent>
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
- *         &lt;element name="montant" type="{http://www.w3.org/2001/XMLSchema}double"/>
+ *         &lt;element name="amount" type="{http://www.w3.org/2001/XMLSchema}double"/>
  *       &lt;/sequence>
  *     &lt;/restriction>
  *   &lt;/complexContent>
@@ -26,27 +26,27 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "convEuroToTnd", propOrder = {
-    "montant"
+@XmlType(name = "convertEuroToTnd", propOrder = {
+    "amount"
 })
-public class ConvEuroToTnd {
+public class ConvertEuroToTnd {
 
-    protected double montant;
+    protected double amount;
 
     /**
-     * Obtient la valeur de la propriété montant.
+     * Obtient la valeur de la propriété amount.
      * 
      */
-    public double getMontant() {
-        return montant;
+    public double getAmount() {
+        return amount;
     }
 
     /**
-     * Définit la valeur de la propriété montant.
+     * Définit la valeur de la propriété amount.
      * 
      */
-    public void setMontant(double value) {
-        this.montant = value;
+    public void setAmount(double value) {
+        this.amount = value;
     }
 
 }

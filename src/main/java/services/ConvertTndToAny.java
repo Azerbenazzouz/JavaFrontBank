@@ -7,16 +7,16 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Classe Java pour convTndToAny complex type.
+ * <p>Classe Java pour convertTndToAny complex type.
  * 
  * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.
  * 
  * <pre>
- * &lt;complexType name="convTndToAny">
+ * &lt;complexType name="convertTndToAny">
  *   &lt;complexContent>
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
- *         &lt;element name="montant" type="{http://www.w3.org/2001/XMLSchema}double"/>
+ *         &lt;element name="amount" type="{http://www.w3.org/2001/XMLSchema}double"/>
  *         &lt;element name="arg1" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *       &lt;/sequence>
  *     &lt;/restriction>
@@ -27,29 +27,29 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "convTndToAny", propOrder = {
-    "montant",
+@XmlType(name = "convertTndToAny", propOrder = {
+    "amount",
     "arg1"
 })
-public class ConvTndToAny {
+public class ConvertTndToAny {
 
-    protected double montant;
+    protected double amount;
     protected String arg1;
 
     /**
-     * Obtient la valeur de la propriété montant.
+     * Obtient la valeur de la propriété amount.
      * 
      */
-    public double getMontant() {
-        return montant;
+    public double getAmount() {
+        return amount;
     }
 
     /**
-     * Définit la valeur de la propriété montant.
+     * Définit la valeur de la propriété amount.
      * 
      */
-    public void setMontant(double value) {
-        this.montant = value;
+    public void setAmount(double value) {
+        this.amount = value;
     }
 
     /**

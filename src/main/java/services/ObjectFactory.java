@@ -24,19 +24,19 @@ import javax.xml.namespace.QName;
 @XmlRegistry
 public class ObjectFactory {
 
-    private final static QName _ConvTndToAny_QNAME = new QName("http://service/", "convTndToAny");
-    private final static QName _ConvUsdToAnyResponse_QNAME = new QName("http://service/", "convUsdToAnyResponse");
-    private final static QName _GetAllCurrency_QNAME = new QName("http://service/", "getAllCurrency");
-    private final static QName _ConvUsdToAny_QNAME = new QName("http://service/", "convUsdToAny");
+    private final static QName _GetAllCurrenciesResponse_QNAME = new QName("http://service/", "getAllCurrenciesResponse");
+    private final static QName _ConvertTndToAnyResponse_QNAME = new QName("http://service/", "convertTndToAnyResponse");
     private final static QName _GetCompteResponse_QNAME = new QName("http://service/", "getCompteResponse");
     private final static QName _GetCompte_QNAME = new QName("http://service/", "getCompte");
-    private final static QName _GetAllCurrencyResponse_QNAME = new QName("http://service/", "getAllCurrencyResponse");
-    private final static QName _NotFoundExepetion_QNAME = new QName("http://service/", "NotFoundExepetion");
+    private final static QName _GetAllCurrencies_QNAME = new QName("http://service/", "getAllCurrencies");
     private final static QName _GetComptesResponse_QNAME = new QName("http://service/", "getComptesResponse");
-    private final static QName _ConvEuroToTndResponse_QNAME = new QName("http://service/", "convEuroToTndResponse");
+    private final static QName _ConvertUsdToAnyResponse_QNAME = new QName("http://service/", "convertUsdToAnyResponse");
+    private final static QName _NotFoundException_QNAME = new QName("http://service/", "NotFoundException");
     private final static QName _GetComptes_QNAME = new QName("http://service/", "getComptes");
-    private final static QName _ConvEuroToTnd_QNAME = new QName("http://service/", "convEuroToTnd");
-    private final static QName _ConvTndToAnyResponse_QNAME = new QName("http://service/", "convTndToAnyResponse");
+    private final static QName _ConvertTndToAny_QNAME = new QName("http://service/", "convertTndToAny");
+    private final static QName _ConvertEuroToTndResponse_QNAME = new QName("http://service/", "convertEuroToTndResponse");
+    private final static QName _ConvertUsdToAny_QNAME = new QName("http://service/", "convertUsdToAny");
+    private final static QName _ConvertEuroToTnd_QNAME = new QName("http://service/", "convertEuroToTnd");
 
     /**
      * Create a new ObjectFactory that can be used to create new instances of schema derived classes for package: services
@@ -54,11 +54,11 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link ConvUsdToAny }
+     * Create an instance of {@link ConvertTndToAnyResponse }
      * 
      */
-    public ConvUsdToAny createConvUsdToAny() {
-        return new ConvUsdToAny();
+    public ConvertTndToAnyResponse createConvertTndToAnyResponse() {
+        return new ConvertTndToAnyResponse();
     }
 
     /**
@@ -70,27 +70,19 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link ConvUsdToAnyResponse }
+     * Create an instance of {@link GetAllCurrenciesResponse }
      * 
      */
-    public ConvUsdToAnyResponse createConvUsdToAnyResponse() {
-        return new ConvUsdToAnyResponse();
+    public GetAllCurrenciesResponse createGetAllCurrenciesResponse() {
+        return new GetAllCurrenciesResponse();
     }
 
     /**
-     * Create an instance of {@link GetAllCurrency }
+     * Create an instance of {@link NotFoundException }
      * 
      */
-    public GetAllCurrency createGetAllCurrency() {
-        return new GetAllCurrency();
-    }
-
-    /**
-     * Create an instance of {@link ConvTndToAny }
-     * 
-     */
-    public ConvTndToAny createConvTndToAny() {
-        return new ConvTndToAny();
+    public NotFoundException createNotFoundException() {
+        return new NotFoundException();
     }
 
     /**
@@ -102,19 +94,11 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link ConvEuroToTndResponse }
+     * Create an instance of {@link ConvertUsdToAnyResponse }
      * 
      */
-    public ConvEuroToTndResponse createConvEuroToTndResponse() {
-        return new ConvEuroToTndResponse();
-    }
-
-    /**
-     * Create an instance of {@link NotFoundExepetion }
-     * 
-     */
-    public NotFoundExepetion createNotFoundExepetion() {
-        return new NotFoundExepetion();
+    public ConvertUsdToAnyResponse createConvertUsdToAnyResponse() {
+        return new ConvertUsdToAnyResponse();
     }
 
     /**
@@ -126,71 +110,69 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link GetAllCurrencyResponse }
+     * Create an instance of {@link GetAllCurrencies }
      * 
      */
-    public GetAllCurrencyResponse createGetAllCurrencyResponse() {
-        return new GetAllCurrencyResponse();
+    public GetAllCurrencies createGetAllCurrencies() {
+        return new GetAllCurrencies();
     }
 
     /**
-     * Create an instance of {@link ConvTndToAnyResponse }
+     * Create an instance of {@link ConvertUsdToAny }
      * 
      */
-    public ConvTndToAnyResponse createConvTndToAnyResponse() {
-        return new ConvTndToAnyResponse();
+    public ConvertUsdToAny createConvertUsdToAny() {
+        return new ConvertUsdToAny();
     }
 
     /**
-     * Create an instance of {@link ConvEuroToTnd }
+     * Create an instance of {@link ConvertEuroToTndResponse }
      * 
      */
-    public ConvEuroToTnd createConvEuroToTnd() {
-        return new ConvEuroToTnd();
+    public ConvertEuroToTndResponse createConvertEuroToTndResponse() {
+        return new ConvertEuroToTndResponse();
     }
 
     /**
-     * Create an instance of {@link CompteEntite }
+     * Create an instance of {@link ConvertTndToAny }
      * 
      */
-    public CompteEntite createCompteEntite() {
-        return new CompteEntite();
+    public ConvertTndToAny createConvertTndToAny() {
+        return new ConvertTndToAny();
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ConvTndToAny }{@code >}}
+     * Create an instance of {@link ConvertEuroToTnd }
      * 
      */
-    @XmlElementDecl(namespace = "http://service/", name = "convTndToAny")
-    public JAXBElement<ConvTndToAny> createConvTndToAny(ConvTndToAny value) {
-        return new JAXBElement<ConvTndToAny>(_ConvTndToAny_QNAME, ConvTndToAny.class, null, value);
+    public ConvertEuroToTnd createConvertEuroToTnd() {
+        return new ConvertEuroToTnd();
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ConvUsdToAnyResponse }{@code >}}
+     * Create an instance of {@link CompteEntity }
      * 
      */
-    @XmlElementDecl(namespace = "http://service/", name = "convUsdToAnyResponse")
-    public JAXBElement<ConvUsdToAnyResponse> createConvUsdToAnyResponse(ConvUsdToAnyResponse value) {
-        return new JAXBElement<ConvUsdToAnyResponse>(_ConvUsdToAnyResponse_QNAME, ConvUsdToAnyResponse.class, null, value);
+    public CompteEntity createCompteEntity() {
+        return new CompteEntity();
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link GetAllCurrency }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link GetAllCurrenciesResponse }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://service/", name = "getAllCurrency")
-    public JAXBElement<GetAllCurrency> createGetAllCurrency(GetAllCurrency value) {
-        return new JAXBElement<GetAllCurrency>(_GetAllCurrency_QNAME, GetAllCurrency.class, null, value);
+    @XmlElementDecl(namespace = "http://service/", name = "getAllCurrenciesResponse")
+    public JAXBElement<GetAllCurrenciesResponse> createGetAllCurrenciesResponse(GetAllCurrenciesResponse value) {
+        return new JAXBElement<GetAllCurrenciesResponse>(_GetAllCurrenciesResponse_QNAME, GetAllCurrenciesResponse.class, null, value);
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ConvUsdToAny }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ConvertTndToAnyResponse }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://service/", name = "convUsdToAny")
-    public JAXBElement<ConvUsdToAny> createConvUsdToAny(ConvUsdToAny value) {
-        return new JAXBElement<ConvUsdToAny>(_ConvUsdToAny_QNAME, ConvUsdToAny.class, null, value);
+    @XmlElementDecl(namespace = "http://service/", name = "convertTndToAnyResponse")
+    public JAXBElement<ConvertTndToAnyResponse> createConvertTndToAnyResponse(ConvertTndToAnyResponse value) {
+        return new JAXBElement<ConvertTndToAnyResponse>(_ConvertTndToAnyResponse_QNAME, ConvertTndToAnyResponse.class, null, value);
     }
 
     /**
@@ -212,21 +194,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link GetAllCurrencyResponse }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link GetAllCurrencies }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://service/", name = "getAllCurrencyResponse")
-    public JAXBElement<GetAllCurrencyResponse> createGetAllCurrencyResponse(GetAllCurrencyResponse value) {
-        return new JAXBElement<GetAllCurrencyResponse>(_GetAllCurrencyResponse_QNAME, GetAllCurrencyResponse.class, null, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link NotFoundExepetion }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://service/", name = "NotFoundExepetion")
-    public JAXBElement<NotFoundExepetion> createNotFoundExepetion(NotFoundExepetion value) {
-        return new JAXBElement<NotFoundExepetion>(_NotFoundExepetion_QNAME, NotFoundExepetion.class, null, value);
+    @XmlElementDecl(namespace = "http://service/", name = "getAllCurrencies")
+    public JAXBElement<GetAllCurrencies> createGetAllCurrencies(GetAllCurrencies value) {
+        return new JAXBElement<GetAllCurrencies>(_GetAllCurrencies_QNAME, GetAllCurrencies.class, null, value);
     }
 
     /**
@@ -239,12 +212,21 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ConvEuroToTndResponse }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ConvertUsdToAnyResponse }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://service/", name = "convEuroToTndResponse")
-    public JAXBElement<ConvEuroToTndResponse> createConvEuroToTndResponse(ConvEuroToTndResponse value) {
-        return new JAXBElement<ConvEuroToTndResponse>(_ConvEuroToTndResponse_QNAME, ConvEuroToTndResponse.class, null, value);
+    @XmlElementDecl(namespace = "http://service/", name = "convertUsdToAnyResponse")
+    public JAXBElement<ConvertUsdToAnyResponse> createConvertUsdToAnyResponse(ConvertUsdToAnyResponse value) {
+        return new JAXBElement<ConvertUsdToAnyResponse>(_ConvertUsdToAnyResponse_QNAME, ConvertUsdToAnyResponse.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link NotFoundException }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://service/", name = "NotFoundException")
+    public JAXBElement<NotFoundException> createNotFoundException(NotFoundException value) {
+        return new JAXBElement<NotFoundException>(_NotFoundException_QNAME, NotFoundException.class, null, value);
     }
 
     /**
@@ -257,21 +239,39 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ConvEuroToTnd }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ConvertTndToAny }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://service/", name = "convEuroToTnd")
-    public JAXBElement<ConvEuroToTnd> createConvEuroToTnd(ConvEuroToTnd value) {
-        return new JAXBElement<ConvEuroToTnd>(_ConvEuroToTnd_QNAME, ConvEuroToTnd.class, null, value);
+    @XmlElementDecl(namespace = "http://service/", name = "convertTndToAny")
+    public JAXBElement<ConvertTndToAny> createConvertTndToAny(ConvertTndToAny value) {
+        return new JAXBElement<ConvertTndToAny>(_ConvertTndToAny_QNAME, ConvertTndToAny.class, null, value);
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ConvTndToAnyResponse }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ConvertEuroToTndResponse }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://service/", name = "convTndToAnyResponse")
-    public JAXBElement<ConvTndToAnyResponse> createConvTndToAnyResponse(ConvTndToAnyResponse value) {
-        return new JAXBElement<ConvTndToAnyResponse>(_ConvTndToAnyResponse_QNAME, ConvTndToAnyResponse.class, null, value);
+    @XmlElementDecl(namespace = "http://service/", name = "convertEuroToTndResponse")
+    public JAXBElement<ConvertEuroToTndResponse> createConvertEuroToTndResponse(ConvertEuroToTndResponse value) {
+        return new JAXBElement<ConvertEuroToTndResponse>(_ConvertEuroToTndResponse_QNAME, ConvertEuroToTndResponse.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link ConvertUsdToAny }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://service/", name = "convertUsdToAny")
+    public JAXBElement<ConvertUsdToAny> createConvertUsdToAny(ConvertUsdToAny value) {
+        return new JAXBElement<ConvertUsdToAny>(_ConvertUsdToAny_QNAME, ConvertUsdToAny.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link ConvertEuroToTnd }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://service/", name = "convertEuroToTnd")
+    public JAXBElement<ConvertEuroToTnd> createConvertEuroToTnd(ConvertEuroToTnd value) {
+        return new JAXBElement<ConvertEuroToTnd>(_ConvertEuroToTnd_QNAME, ConvertEuroToTnd.class, null, value);
     }
 
 }
